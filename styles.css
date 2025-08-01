@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 70vh;
+    background-image: url(https://media.assettype.com/film-companion/import/wp-content/uploads/2020/03/Moonwalking-The-Plank-The-Lifecycle-Of-A-Background-Dancer-.jpg?w=480&auto=format,compress&fit=max);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    gap: 3rem;
+    justify-content: end;
+    padding-top: 2rem;
+    padding-right: 3rem
+}
+
+nav > a{
+    text-decoration: none;
+    color: #535353;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+     letter-spacing: 0.1rem;
+     padding-top: 1rem;
+}
+
+nav > span {
+     border: 1px solid #484747;
+        width: 45px;
+        height: 45px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #484747; 
+        margin-left: -2.3rem;
+    
+}
+ 
+.bannerTitle{
+    max-width: 400px;
+    margin: 5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerTitle > h1{
+    color: white;
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+
+/* styling for subcribe section */
+section{
+    background-color: #232323;
+    padding-block: 3rem;
+}
+
+.subscribeWrapper{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.formWrapper{
+    height: 400px;
+    width: 400px;
+}
+.formWrapper>h1{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 3rem;
+    width: 300px;
+    padding-bottom: 2rem;
+    color: #fff;
+}
+
+.inputCont{
+    border-bottom: 1px solid #484747;
+    margin-bottom: 1rem;
+
+}
+
+.inputCont>input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-block: 0.4rem;
+    padding-bottom: 1.2rem;
+}
+
+.inputCont>input::placeholder{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #484747;
+    letter-spacing: 0.2rem;
+}
+
+.submitBtn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 15px;
+    }
+
+    .submitBtn>button{
+        text-transform: uppercase;
+        font-size: 12px;
+        background-color: transparent;
+        border: none;
+        color: #484747;
+        letter-spacing: 0.1rem;
+        padding-top: 10px;
+    }
+
+    .submitBtn>span{
+        border: 1px solid;
+        width: 45px;
+        height: 45px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #484747;
+    }
+
+
+
+    .info{
+        height: 50vh ;
+        width: 39%;
+        margin-left: 100px;
+    }
+
+    .info>h3{
+        text-transform:capitalize;
+        font-weight: 400;
+        font-size: 2rem;
+        width: 200px;
+        color: #fff;
+        padding-bottom: 1.2rem;
+        border: none;
+    }
+
+    .info>p{
+        text-transform: capitalize;
+        color: #5c5c5c;
+        align-items: center ;
+        padding-bottom: 1rem;
+        border: none;
+        line-height: 25px;
+    
+    }
+
+.info> p >.mail{
+    color: #a7a7a7;
+
+}
+
+.infoIcons{
+    margin-top: 1rem;
+}
+.infoIcons>a{
+    color: #fff;
+    padding-right: 15px;
+}
+
+.mapCont{
+    padding-bottom: 80px;
+    padding-top: 30px;
+}
