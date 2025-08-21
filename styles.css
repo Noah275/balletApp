@@ -56,6 +56,21 @@ nav > span {
     font-size: 3rem;
 }
 
+@media(min-width:320px) and (max-width: 500px){
+    header{
+        max-width: calc(100% - 10px);
+        height: 50vh;
+    }
+
+    nav > a{
+        display: none;
+    }
+
+    nav > a > span {
+        display: none;
+    }
+}
+
 /* styling for subcribe section */
 section{
     background-color: #232323;
@@ -66,7 +81,7 @@ section{
     max-width: 1100px;
     margin: auto;
     display: flex;
-    gap: 1rem;
+    gap: 1rem; 
     align-items: center;
 }
 
@@ -178,3 +193,73 @@ section{
     padding-bottom: 80px;
     padding-top: 30px;
 }
+
+@media(min-width:320px) and (max-width: 500px){
+    section{
+        width: calc(100% - 10px);
+    }
+    .subscribeWrapper{
+        flex-direction: column;
+        gap: 0.1rem;
+    }
+
+    .formWrapper{
+        height: 300px;
+        width: 300px;
+    }
+
+    .formWrapper > h1{
+        font-size: 1.5rem;
+    }
+
+    .inputCont{
+        margin-bottom: 0.5rem;
+    }
+
+    .inputCont>input::placeholder{
+        font-size: 10px;
+    }
+
+    .submitBtn > button{
+        font-size: 10px;
+        padding-top: 1px;
+    }
+
+        .submitBtn>span{
+            width: 25px;
+            height: 25px;
+        }
+
+         .info{
+        height: 30vh ;
+        width: 80%;
+        margin-left:1px;
+         }
+
+         .info > h3  {
+        font-size: 1rem;
+        padding-bottom: 1rem;
+         }
+
+            .info>p{
+        padding-bottom: 1rem;
+        line-height: 20px;
+    
+    }
+
+    .infoIcons{
+    margin-top: 0.5rem;
+     }
+
+     .mapCont{
+        padding-top: 170px;
+        padding-bottom: 0;
+     }
+
+
+
+
+
+
+
+    }
